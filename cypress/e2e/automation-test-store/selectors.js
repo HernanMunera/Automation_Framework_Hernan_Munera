@@ -22,6 +22,6 @@ describe("Selector examples", () => {
         cy.get("[name='email'][placeholder='Email Address']")
 
         //By xpath
-        cy.xpath("//input[@name='first_name']")
+        cy.xpath("//input[@placeholder='First Name']")
     })
 })

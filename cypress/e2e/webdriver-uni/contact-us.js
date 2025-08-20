@@ -1,5 +1,5 @@
-import Homepage_PO from '..support/page_Objects/webdriver-uni/Homepage_PO.js';
-import Contact_Us_PO from '../support/page_Objects/webdriver-uni/Contact_Us_PO.js';
+import Contact_Us_PO from '../../support/page_Objects/webdriver-uni/Contact_Us_PO.js';
+import Homepage_PO from '../../support/page_Objects/webdriver-uni/Homepage_PO.js';
 
 /// <reference types="cypress" />
 

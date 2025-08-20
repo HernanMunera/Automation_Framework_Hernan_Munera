@@ -5,7 +5,7 @@ describe('Test File Upload via webdriveruni', () => {
         cy.visit("http://www.webdriveruniversity.com");
         cy.get('#file-upload').invoke('removeAttr', 'target').click({force:true});
 
-        cy.get("#myFile").selectFile("cypress/fixtures/laptop.png");
+        cy.get("#myFile").selectFile("cypress/fixtures/descarga.jpeg");
         cy.get("#submit-button").click();
     });
 
